@@ -17,7 +17,7 @@ public class applicationTest extends TestCase {
     public void testIsNumber() {
         String x="1";
         application a=new application();
-        assertEquals(true,a.IsNumber(x));
+        assertTrue(a.IsNumber(x));
     }
 
     @Test
